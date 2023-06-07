@@ -1,5 +1,17 @@
 import React, { Component } from 'react'
 
+// Class component that handles adding new task
+class AddTask extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            newTask: ''
+        }
+        
+    }
+}
+
+// Main component that displays content
 class Overview extends Component {
     
     
